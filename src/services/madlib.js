@@ -18,8 +18,7 @@ export const powerpuff = (...words) =>
 These were the ingredients chosen
 to create the ${words[3]} little ${words[4]}.
 But Professor ${words[5]} accidentally
-added an extra ${words[6]} to the concoction--
-Chemical X...
+added an extra ${words[6]} to the concoction--Chemical X.
 Thus, the ${words[7]}${words[8]} girls were born!
 Using their ultra-super ${words[9]},
 Blossom, Bubbles, and Buttercup
