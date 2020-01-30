@@ -1,10 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { zoo } from '../../services/madlib';
+import { powerpuff } from '../../services/madlib';
 
 const Result = ({ words, closeResult }) => (
   <>
-    <p>{zoo(...words)}</p>
+    <p>{powerpuff(...words)}</p>
     <button onClick={closeResult}>X</button>
   </>
 );
