@@ -6,8 +6,7 @@ class Header extends Component {
     return (
       <header className={styles.Header}>
         <section>
-          <h1 >Mad Libs</h1>
-          <h2>idk, a subheader i guess</h2>
+          <h1 >MAD LIBS</h1>
         </section>
       </header>
     );

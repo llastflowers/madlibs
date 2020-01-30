@@ -14,15 +14,15 @@
 // `;
 
 export const powerpuff = (...words) =>
-  `${words[0]}, ${words[1]}, and everything ${words[2]}
+  `${words[0]}, ${words[1]}, and everything ${words[2]}.
 These were the ingredients chosen
-To create the ${words[3]} little ${words[4]}
+to create the ${words[3]} little ${words[4]}.
 But Professor ${words[5]} accidentally
-Added an extra ${words[6]} to the concoction--
+added an extra ${words[6]} to the concoction--
 Chemical X...
-Thus, The ${words[7]}${words[8]} Girls were born!
-Using their ultra-super ${words[9]}
+Thus, the ${words[7]}${words[8]} girls were born!
+Using their ultra-super ${words[9]},
 Blossom, Bubbles, and Buttercup
-Have dedicated their lives to fighting ${words[10]}
-And the ${words[11]} of evil!
+have dedicated their lives to fighting ${words[10]}
+and the ${words[11]} of evil!
 `;

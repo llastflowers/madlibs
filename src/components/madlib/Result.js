@@ -1,11 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { powerpuff } from '../../services/madlib';
+import styles from '../App.css';
 
 const Result = ({ words, closeResult }) => (
   <>
-    <p>{powerpuff(...words)}</p>
-    <button onClick={closeResult}>X</button>
+    <section className={styles.resultContainer}>
+      <p className={styles.Result}>{powerpuff(...words)}</p>
+    </section>
+    <section className={styles.backButtonContainer}>
+      <button className={styles.backButton} onClick={closeResult}>Back</button>
+    </section>
   </>
 );
 
