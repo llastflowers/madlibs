@@ -16,6 +16,7 @@ const Form = ({ onChange0, onChange1, onChange2, onChange3, onChange4, onChange5
     <input type="text" onChange={onChange10} placeholder="verb, past tense" />
     <input type="text" onChange={onChange11} placeholder="adjective" />
     <button>Create Mad Lib</button>
+    <button type="reset">Clear</button>
   </form>
 );
 
